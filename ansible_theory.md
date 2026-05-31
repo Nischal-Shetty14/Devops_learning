@@ -23,10 +23,10 @@ hosts: webservers
         name: nginx
         state: present
       
--**Dynamic inventory**-Ansible fetches information publically from cloud servers
+- **Dynamic inventory**-Ansible fetches information publically from cloud servers
 basically, Ansible asks AWS → "Give me all EC2 instances with tag=webserver"
 
-#Puppet
+# Puppet
 - This uses pull mechanism and is old version
 Server1 ----\
 Server2 ----- > Puppet Server
