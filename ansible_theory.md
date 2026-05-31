@@ -1,7 +1,9 @@
 In earlier days,System admin used to manage-
+
 -10 linux
 -5 windows and other servers and they would have to ssh into each machine and update individually(packages,services)
 Now configuration management treats it as IAC and can configure things on machines together and all at once
+
 #Ansible
 -Ansible is the most important config management system and uses **python** and **YAML** 
 -It uses push model 
