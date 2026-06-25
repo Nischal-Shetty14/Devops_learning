@@ -22,6 +22,7 @@ hosts: webservers
       apt:
         name: nginx
         state: present
+- Inventory files contains ip address,host name etc
       
 - **Dynamic inventory**-Ansible fetches information publically from cloud servers
 basically, Ansible asks AWS → "Give me all EC2 instances with tag=webserver"
